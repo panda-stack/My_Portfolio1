@@ -1,0 +1,52 @@
+:root {
+  --theme: #222222;
+}
+
+.section-title .title::before,
+.header::before,
+.home-section,
+.features-section .features-item:hover,
+.products-section .owl-carousel .owl-nav button.owl-next,
+.products-section .owl-carousel .owl-nav button.owl-prev,
+.testinomial-section::before,
+.testinomial-section .owl-carousel .owl-nav button.owl-next:hover,
+.testinomial-section .owl-carousel .owl-nav button.owl-prev:hover,
+.newsletter-section::before,
+.mybtn2,
+.footer,
+.header .navbar-light .navbar-toggler-icon,
+.header .navbar-light .navbar-toggler-icon::before,
+.header .navbar-light .navbar-toggler-icon::after {
+  background-color: var(--theme);
+}
+
+.mybtn1,
+.mybtn1:hover,
+.section-title .title,
+.about-section .about-content ul li i,
+.features-section .features-item .icon i,
+.products-section .product-content .product-price .new-price,
+.testinomial-section .client-info h5,
+.testinomial-section .owl-carousel .owl-nav button.owl-next,
+.testinomial-section .owl-carousel .owl-nav button.owl-prev,
+.faq-section .support-text a,
+.contact-section .contact-item .icon i,
+.contact-section .contact-item h5,
+.footer .footer-social-links a:hover i {
+  color: var(--theme);
+}
+
+.testinomial-section .client-info img,
+.contact-section .contact-form .form-control:focus {
+  border-color: var(--theme);
+}
+
+.preloader .loader {
+  border-right: 5px solid var(--theme);
+}
+
+@media (max-width: 991px) {
+  .header .navbar #collapsibleNavbar .nav-item .nav-link {
+    color: var(--theme);
+  }
+}
